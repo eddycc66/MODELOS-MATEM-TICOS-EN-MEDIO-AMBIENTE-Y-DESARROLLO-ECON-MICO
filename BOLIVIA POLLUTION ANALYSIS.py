@@ -48,7 +48,7 @@ print("IMPORTANTE: Sigue el enlace que aparece abajo y autoriza el acceso\n")
 
 try:
     ee.Authenticate()
-    ee.Initialize(project='eddycc66')
+    ee.Initialize(project='cambiar el usuario')
     print("\n✓ Google Earth Engine inicializado correctamente\n")
 except Exception as e:
     print(f"\nError: {e}")
@@ -368,3 +368,4 @@ print("\n¡El mapa interactivo se muestra abajo!")
 
 # Mostrar mapa al final
 Map
+
